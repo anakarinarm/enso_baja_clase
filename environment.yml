@@ -1,0 +1,13 @@
+name: oceanografia
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - netcdf4
+  - scipy

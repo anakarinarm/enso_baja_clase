@@ -1,0 +1,25 @@
+# --- Datos ---
+# Conservamos la carpeta data/ y su README, pero no versionamos los datos.
+data/*
+!data/README.md
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- Ambientes locales ---
+.env
+.venv/
+venv/
+
+# --- Sistema operativo / editores ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Archivos temporales ---
+*.tmp
+*~
